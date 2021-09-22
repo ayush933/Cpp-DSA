@@ -30,5 +30,6 @@ struct Seg {
 int main() {
   int n = 1e5;
   Seg<int> st;
+  st.init(n);
   return 0;
 }
